@@ -1,0 +1,20 @@
+pip install virtualenv
+virtualenv env
+cd env
+cd scripts
+activate (might need to do it in actual cmd, not in pycharm's terminal)
+
+pip install django==2.2
+django-admin starproject mysite
+django-admin startproject pdf
+
+
+got to bootstrap, get the 'css' link.
+search bootstrap for forms and we CAN copy their code there, but iguess we're going to do it by hand instead.
+
+**
+pip install pdfkit
+    go to wkhtmltopdf and downloading windows 7z archive
+    extract to c drive, then go into the /bin and copy the address. Add it to our enviroment variables;
+            Search enviroment, go to advanced, environment variables
+                click Path in the top section and hit edit, new, copy/paste that bin path, okay.
